@@ -31,7 +31,7 @@
   },
   "private": false,
   "dependencies": {
-    "@nrwl/angular": "9.5.1",
+    "@nrwl/angular": "9.8.0",
     "@angular/animations": "^9.1.0",
     "@angular/common": "^9.1.0",
     "@angular/compiler": "^9.1.0",
