@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@nrwl/angular > @nguniversal/builders > browser-sync > easy-extender > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > http-server > portfinder > async > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nguniversal/builders > browser-sync > portscanner > async > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nguniversal/builders > guess-parser > @wessberg/ts-evaluator > jsdom > whatwg-url > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nguniversal/builders > guess-parser > @wessberg/ts-evaluator > jsdom > data-urls > whatwg-url > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > babel-jest > @types/babel__core > @types/babel__traverse > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-snapshot > @types/babel__traverse > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > @jest/expect > jest-snapshot > @babel/traverse > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @types/babel__traverse > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > @jest/expect > jest-snapshot > @babel/traverse > @babel/generator > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-runtime > jest-snapshot > @types/babel__traverse > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-runner > jest-runtime > jest-snapshot > @types/babel__traverse > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @types/babel__core > @types/babel__traverse > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > @jest/expect > jest-snapshot > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-runtime > @jest/globals > @jest/expect > jest-snapshot > @babel/traverse > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-runner > jest-runtime > @jest/globals > @jest/expect > jest-snapshot > @babel/traverse > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-runtime > @jest/globals > @jest/expect > jest-snapshot > @babel/traverse > @babel/generator > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-runner > jest-runtime > @jest/globals > @jest/expect > jest-snapshot > @babel/traverse > @babel/generator > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > @jest/expect > jest-snapshot > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-runtime > @jest/globals > @jest/expect > jest-snapshot > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-runner > jest-runtime > @jest/globals > @jest/expect > jest-snapshot > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-runtime > @jest/globals > @jest/expect > jest-snapshot > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-runner > jest-runtime > @jest/globals > @jest/expect > jest-snapshot > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2023-01-12T21:37:34.151Z'
