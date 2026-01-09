@@ -1,0 +1,66 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-snapshot > @babel/traverse > lodash':
+        patched: '2026-01-09T07:17:37.782Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-snapshot
+          > @babel/traverse > lodash
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-runtime > jest-snapshot > @babel/traverse > lodash':
+        patched: '2026-01-09T07:17:37.782Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-runtime
+          > jest-snapshot > @babel/traverse > lodash
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-runner > jest-runtime > jest-snapshot > @babel/traverse > lodash':
+        patched: '2026-01-09T07:17:37.782Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @nrwl/angular > @nrwl/jest > jest-config > jest-runner > jest-runtime
+          > jest-snapshot > @babel/traverse > lodash
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-snapshot > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2026-01-09T07:17:37.782Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-snapshot
+          > @babel/traverse > @babel/helper-split-export-declaration >
+          @babel/types > lodash
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-runtime > jest-snapshot > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2026-01-09T07:17:37.782Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-runtime
+          > jest-snapshot > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-runner > jest-runtime > jest-snapshot > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2026-01-09T07:17:37.782Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @nrwl/angular > @nrwl/jest > jest-config > jest-runner > jest-runtime
+          > jest-snapshot > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-snapshot > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2026-01-09T07:17:37.782Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-snapshot
+          > @babel/traverse > @babel/helper-function-name > @babel/template >
+          @babel/types > lodash
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-runtime > jest-snapshot > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2026-01-09T07:17:37.782Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @nrwl/angular > @nrwl/jest > jest-config > jest-circus > jest-runtime
+          > jest-snapshot > @babel/traverse > @babel/helper-function-name >
+          @babel/template > @babel/types > lodash
+    - '@nrwl/angular > @nrwl/jest > jest-config > jest-runner > jest-runtime > jest-snapshot > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2026-01-09T07:17:37.782Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @nrwl/angular > @nrwl/jest > jest-config > jest-runner > jest-runtime
+          > jest-snapshot > @babel/traverse > @babel/helper-function-name >
+          @babel/template > @babel/types > lodash
